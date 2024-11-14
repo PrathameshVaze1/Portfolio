@@ -8,7 +8,8 @@ class Greeter extends Component
 {
     public $name = 'Prathamesh';
 
-    public function change($newName){
+    public function change($newName)
+    {
         $this->name = $newName;
     }
 
